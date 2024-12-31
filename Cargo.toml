@@ -1,0 +1,21 @@
+[package]
+name = "solana_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+utoipa = "5.2.0"  # Última versión estable
+utoipa-swagger-ui = { version = "8.0.3", features = ["actix-web"] }
+serde = { version = "1.0", features = ["derive"] }
+dotenv = "0.15"   
+env_logger = "0.10"  
+tokio = { version = "1.0", features = ["full"] }   
+
+
+solana-client = "2.0"          # Cliente RPC de Solana
+solana-sdk = "2.0"  
+
+serde_json = "1.0"
+
+
