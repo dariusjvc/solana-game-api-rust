@@ -1,4 +1,4 @@
-# SOLANA_GAME_API_RUST
+# Solana Game API (Rust)
 
 ## Overview
 SOLANA_GAME_API_RUST is a backend application written in Rust using the Actix Web framework. It provides an API to interact with a Solana-based program. The API integrates Swagger for documentation and testing of Solana instructions.
