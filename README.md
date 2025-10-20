@@ -79,7 +79,7 @@ The API interacts with a Solana program designed for escrow-based gambling, and 
 5. **Access Swagger Documentation:**
    Open your browser and navigate to:
    ```
-   http://127.0.0.1:8080/swagger
+   http://localhost:8080/swagger-ui/#
    ```
 
 ## Usage
