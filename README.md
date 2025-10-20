@@ -54,7 +54,7 @@ The API interacts with a Solana program designed for escrow-based gambling, and 
 ## Setup
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/dariusjvc/solana-game-api-rust.git
    cd SOLANA-GAME-API-RUST
    ```
 
