@@ -1,6 +1,6 @@
 use solana_client::rpc_client::RpcClient;
 use solana_sdk::pubkey::Pubkey;
-use std::str::FromStr; // Importamos el rasgo necesario
+use std::str::FromStr;
 use actix_web::web;
 
 pub async fn get_account_balance(account_pubkey: &str, rpc_url: &str) -> Result<u64, String> {
@@ -11,7 +11,7 @@ pub async fn get_account_balance(account_pubkey: &str, rpc_url: &str) -> Result<
     let pubkey = pubkey_result.unwrap();
     let rpc_url = rpc_url.to_string();
 
-    // Usa web::block para operaciones bloqueantes
+    // Use web::block for blocking operations
     web::block(move || {
         let client = RpcClient::new(&rpc_url);
         client.get_balance(&pubkey)

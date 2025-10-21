@@ -1,7 +1,7 @@
 use std::env;
 
 
-#[derive(Clone)] // Derivamos el trait Clone
+#[derive(Clone)]
 pub struct AppConfig {
     pub solana_rpc_url: String,
 }
